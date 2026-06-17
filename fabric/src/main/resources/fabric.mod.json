@@ -4,19 +4,17 @@
     "version": "${version}",
     "name": "${mod_name}",
     "description": "${description}",
-    "authors": [
-        "${mod_author}"
-    ],
+    "authors": [],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "https://github.com/blankuserrr/Fovea",
+        "sources": "https://github.com/blankuserrr/Fovea"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "com.fovea.Fovea"
         ]
     },
     "mixins": [
