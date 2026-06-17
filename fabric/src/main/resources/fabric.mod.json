@@ -15,6 +15,9 @@
     "entrypoints": {
         "main": [
             "com.fovea.Fovea"
+        ],
+        "sodium:config_api_user": [
+            "com.fovea.compat.sodium.FoveaSodiumConfig"
         ]
     },
     "mixins": [
@@ -28,7 +31,7 @@
         "java": ">=${java_version}"
     },
     "suggests": {
-        "another-mod": "*"
+        "sodium": ">=0.9.0"
     }
 }
   
